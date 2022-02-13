@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(202, 196, 189);
+ }
+ h2,.c1{
+    color: coral;
+ }
+ #p2{
+    color:chartreuse
+ }
+ #p1{
+   background-color: darkblue;
+ }
+ 
+ .c2{
+    color:rgb(24, 211, 40);
+    background-color: blueviolet;
+ }
+ h1{
+    color: red;
+    background-color: aqua;
+ } 
+ thead{
+    background-color: lightgreen;
+ }
+ tbody{
+    background-color: aqua;
+ }
+ tfoot{
+    background-color: coral;
+ }
