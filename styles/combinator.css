@@ -1,0 +1,19 @@
+/*div p,h1{
+    background-color: aqua;
+} descendant selector
+
+.olddiv>h2,.p2{
+    background-color: aqua;
+}
+.newdiv>.h3,.p3{
+    background-color: blueviolet;
+} child selector
+.olddiv+.newdiv{
+    background-color: blueviolet;
+} adajcent / immediate 
+h2~.p2{
+    background-color:#a4e713;
+} general sibling selctors*/
+
+
+
