@@ -1,0 +1,65 @@
+body{
+    margin:3px;
+}
+.border1{
+  /* border-top-style: dotted;
+   border-bottom-style: dotted;
+   border-left-style: dashed;
+   border-right-style: dashed;*/
+  /* border-style: dashed;*/
+  /* border-top-width: 2px;
+   border-bottom-width: 2px;
+    border-color: rgb(105, 46, 3);*/
+ /*  border-width: 2px;*/
+    border:3px double rgb(49, 6, 6);
+    color:brown;
+   /* padding:5px;*/
+  /* padding:5px 10px; tb lr*/
+    padding : 3px 5px 10px ;  
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+   /* font-style: italic;*/
+   text-align: center;
+}
+p{
+    font-weight:bolder;
+    text-indent: 20px;
+    font-size:medium;
+    line-height: 30px;
+  /*  letter-spacing: 3px;*/
+  word-spacing: 5px;
+}
+img{
+    border-radius: 50%;
+    border-style: groove;
+    padding:5px;
+    margin-right:10px;
+    width: 20%;
+    height: 350px;
+}
+a{
+    text-decoration: none;
+    color:brown
+}
+button{
+    background-color: rgb(190, 176, 202);
+  /*  margin-top:15px;
+    margin-bottom:15px;
+    margin-left:45px;
+    margin-right:45px;*/
+    margin:15px 45px;
+    border-style: dotted;
+    padding:10px;
+}
+#top{
+    background-color: bisque;
+}
+#section1{
+    background-color: rgb(231, 166, 120);
+}
+#section2{
+    background-color: rgb(181, 233, 233);
+}
+#section3{
+    background-color: rgb(26, 219, 219);
+}
