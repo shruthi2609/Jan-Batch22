@@ -1,0 +1,71 @@
+.nav-container{
+    display: flex;
+    /*flex-direction: row-reverse/row/column/column-reverse*/
+    flex-direction: row;
+    /* justify-content: flex-end,flex-start,center,space-evenly space-between space-around;*/
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color:brown
+}
+button{
+    background-color: rgb(190, 176, 202);
+  /*  margin-top:15px;
+    margin-bottom:15px;
+    margin-left:45px;
+    margin-right:45px;*/
+    margin:15px 45px;
+    border-style: dotted;
+    padding:10px;
+}
+/*home*/
+.c1{
+    background-color: rgb(17, 177, 177);
+    order:3;
+    flex-grow:1
+}
+/*Services*/
+.c2{
+    background-color: coral;
+    order:4;
+    flex-grow:1
+}
+/*gallery*/
+.c3{
+    background-color: gray;
+    order:1;
+    flex-grow:1
+}
+/*products*/
+.c4{
+    background-color: mediumspringgreen;
+    order:2;
+    flex-grow:1
+}
+.content-container{
+display: flex;
+flex-direction: column;
+background-color: aqua;
+padding:20px;
+align-items: center;
+
+}
+/*actual order : 3*/
+.cc1{
+    background-color: gray;
+    order:2
+    
+}
+/*actual order : 2*/
+.cc2{
+    background-color: rgb(175, 250, 0);
+
+    order:3
+}
+/*actual order : 1*/
+.cc3{
+    background-color: coral;
+    order:1
+}
+

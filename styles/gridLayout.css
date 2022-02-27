@@ -1,4 +1,4 @@
-.container{
+.grid-container{
     display: grid;
   /*  grid-template-columns: 33% 33% 33%;
    grid-template-columns:  33% 200px auto;
@@ -15,28 +15,28 @@
     grid-row-start: 1;
     grid-row-end:3
 }*/
-.c1{
+.g-c1{
     background-color: rgb(17, 177, 177);
 
 }
-.c2{
+.g-c2{
     background-color: coral;
 }
-.c3{
+.g-c3{
     background-color: gray;
 }
-.sidebar{
+.g-sidebar{
     background-color: darkkhaki;
     
 }
-.content{
+.g-content{
     background-color: rgb(199, 168, 129);
    grid-column-start: 2;
     grid-column-end: 5;
     text-align: center;
    
 }
-.ads{
+.g-ads{
     background-color: rgb(202, 140, 171);
     text-align: center;
     /*
