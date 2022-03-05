@@ -69,3 +69,10 @@ align-items: center;
     order:1
 }
 
+@media screen and  (min-width:350px)and (max-width:500px){
+    .nav-container{
+        display: block;
+        /*flex-direction: row-reverse/row/column/column-reverse*/
+    } 
+}
+
